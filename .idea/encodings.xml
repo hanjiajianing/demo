@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/dao/CourseScheduleDAO.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/dao/DAO.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/dao/ExamArrangeDAO.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/dao/LevelExamDAO.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/dao/OptionalCourseDAO.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/entity/CourseSchedule.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/entity/CourseScheduleShow.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/entity/ExamArrange.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/entity/ExemptionApply.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/entity/GradeAnalysisResult.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/entity/JwTeacher.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/entity/LevelExam.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/entity/LevelExamList.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/entity/LevelExamination.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/entity/OptionalCourse.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/entity/PostponeExamApply.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/entity/StudentBasicInformation.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/entity/StudentGrade.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/entity/StudentOptCourse.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/entity/Teacher.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/entity/User.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/filter/AcdemicDeanJspFilter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/filter/HttpFilter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/jdbcutil/JDBCUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/servlet/AdminUserServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/servlet/ApplyStudentListServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/servlet/CoursegradeServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/servlet/StudentInformationServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/servlet/TeacherInformationServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/hua/servlet/ValidateColorServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/res/css/lanrenzhijia.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/res/css/lanrenzhijia.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/res/js/lanrenzhijia.js" charset="GBK" />
+  </component>
+</project>
