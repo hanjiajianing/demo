@@ -16,6 +16,7 @@ import com.hua.impl.UserDAOImpl;
  * @author hua
  *
  */
+//根据不同的登录角色进行转发
 @WebServlet("/loginChangeServlet")
 public class LoginChangeServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -40,14 +41,14 @@ public class LoginChangeServlet extends HttpServlet {
 				response.sendRedirect(request.getContextPath() + "/student/student.jsp");
 				return;
 			}
-			if(identity.equals("teacher")){
-				response.sendRedirect(request.getContextPath() + "/teacher/teacher.jsp");
-				return;
-			}
-			if(identity.equals("acdemic_dean")){
-				response.sendRedirect(request.getContextPath() + "/acdemic_dean/acdemic_dean.jsp");
-				return;
-			}
+//			if(identity.equals("teacher")){
+//				response.sendRedirect(request.getContextPath() + "/teacher/teacher.jsp");
+//				return;
+//			}
+//			if(identity.equals("acdemic_dean")){
+//				response.sendRedirect(request.getContextPath() + "/acdemic_dean/acdemic_dean.jsp");
+//				return;
+//			}
 			if(identity.equals("administrator")){
 				response.sendRedirect(request.getContextPath() + "/administrator/administrator.jsp");
 				return;

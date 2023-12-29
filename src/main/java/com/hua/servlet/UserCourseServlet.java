@@ -26,6 +26,7 @@ import java.io.IOException;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.util.IOUtils;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+//获取后缀为UserCourse的所有请求
 @WebServlet("*.UserCourse")
 public class UserCourseServlet extends HttpServlet {
     private static final long serialVersionUID =1L;
@@ -38,6 +39,7 @@ public class UserCourseServlet extends HttpServlet {
         doPost(request, response);
     }
 
+    //通过反射获取请求头信息以及参数信息
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //1.获取ServletPath：/addUser.do
         String servletPath = request.getServletPath();
@@ -114,7 +116,7 @@ public class UserCourseServlet extends HttpServlet {
 
         }
 
-
+//导出excel表单
     private void output(HttpServletRequest request,HttpServletResponse response)throws ServletException,IOException {
         String username =request.getParameter("username");
 
@@ -122,7 +124,7 @@ public class UserCourseServlet extends HttpServlet {
             User user = userDAO.get(username);
             if(user != null){
 
-
+             //获取数据
                 List<String> courseIdList =studentOptCourseDAO.getCountWithName(username);
 
                 List<OptionalCourse> courseList =new ArrayList<OptionalCourse>();
@@ -134,7 +136,7 @@ public class UserCourseServlet extends HttpServlet {
                     courseId=null;
 
                 }
-
+               //创建
                 Workbook workbook = new XSSFWorkbook();
                 Sheet sheet = workbook.createSheet("Sheet1");
                 Row row0 =sheet.createRow(0);

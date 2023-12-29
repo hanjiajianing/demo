@@ -17,6 +17,7 @@ import java.util.Random;
  * @author hua
  *
  */
+//获取验证码请求
 @WebServlet("/validateColorServlet")
 public class ValidateColorServlet extends HttpServlet {
 

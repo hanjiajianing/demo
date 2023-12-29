@@ -19,6 +19,7 @@ import java.util.List;
 /**
  * Servlet implementation class StudentInformationServlet
  */
+//学生信息管理
 @WebServlet("/studentInformationServlet")
 public class StudentInformationServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;

@@ -20,7 +20,7 @@ import com.hua.entity.StudentOptCourse;
 import com.hua.entity.User;
 import com.hua.impl.OptionalCourseDAOImpl;
 import com.hua.impl.StudentOptCourseDAOImpl;
-
+//获取后缀为optional的请求
 @WebServlet("*.optional")
 public class OptionalCourseServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -32,7 +32,7 @@ public class OptionalCourseServlet extends HttpServlet {
 		doPost(request, response);
 	}
 
-
+	//通过反射获取请求头信息以及参数信息
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//1.获取ServletPath
 		String servletPath = request.getServletPath();

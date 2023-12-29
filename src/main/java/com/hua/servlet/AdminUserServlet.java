@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.List;
 
+//获取结尾为do的请求
 @WebServlet("*.do")
 public class AdminUserServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -24,7 +25,7 @@ public class AdminUserServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doPost(request, response);
 	}
-
+	//通过反射获取请求头信息以及参数信息
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//1.获取ServletPath：/addUser.do
 		String servletPath = request.getServletPath();

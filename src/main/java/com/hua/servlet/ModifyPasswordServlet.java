@@ -10,7 +10,7 @@ import javax.servlet.http.HttpSession;
 
 import com.hua.entity.User;
 import com.hua.impl.UserDAOImpl;
-
+//密码管理请求
 @WebServlet("/modifyPasswordServlet")
 public class ModifyPasswordServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;

@@ -23,7 +23,7 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.Calendar;
 import java.util.List;
-
+//获取结尾为Course的请求
 @WebServlet("*.Course")
 public class CourseServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
